@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(35, 40,56);
+    color: #fff;
+    text-indent: 20px;
+}
+
+.lavel {
+    display: flex;
+    font-size: 20px;
+}
+.inputbox {
+    background-color: #888;
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.button {
+    color: #fff;
+    background-color: rgb(75,79,236);
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.CreateAccount {
+    color: #888;
+    margin-top: 10px;
+}
+.signup {
+    text-decoration: none;
+    color: rgb(92,114,246);
+}
+
+.auto-filled {
+    background-color: #FFFFD1;
+    transition: background-color 0.5s ease;
+}
