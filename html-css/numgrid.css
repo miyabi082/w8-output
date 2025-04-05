@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #333;
+    margin: 5% 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.grid1 {
+    background: repeating-linear-gradient(
+        -45deg,
+        #2b1e45 0px,   /* 暗い紫色（背景） */
+        #2b1e45 16px,   /* 背景色が8pxまで続く（太い部分） */
+        #b64fc8 16px,   /* 明るいピンク/紫色（細線） */
+        #b64fc8 24px   /* 細線は2pxの幅 */
+    );
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(3, auto); */
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.grid2 {
+    background: repeating-linear-gradient(
+        -45deg,
+        #2b1e45 0px,   /* 暗い紫色（背景） */
+        #2b1e45 16px,   /* 背景色が8pxまで続く（太い部分） */
+        #b64fc8 16px,   /* 明るいピンク/紫色（細線） */
+        #b64fc8 24px   /* 細線は2pxの幅 */
+    );
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, auto); */
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.grid3 {
+    background: repeating-linear-gradient(
+        -45deg,
+        #2b1e45 0px,   /* 暗い紫色（背景） */
+        #2b1e45 16px,   /* 背景色が8pxまで続く（太い部分） */
+        #b64fc8 16px,   /* 明るいピンク/紫色（細線） */
+        #b64fc8 24px   /* 細線は2pxの幅 */
+    );
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: repeat(3, auto); */
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.tile {
+    aspect-ratio: 1/1;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
